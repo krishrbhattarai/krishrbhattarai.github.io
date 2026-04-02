@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>projects · krish raj bhattarai</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <a class="site-title" href="index.html">krish raj bhattarai</a>
+  <nav>
+    <a href="index.html">home</a>
+    <a href="writing.html">writing</a>
+    <a href="projects.html" class="active">projects</a>
+    <a href="books.html">books</a>
+    <a href="courses.html">courses</a>
+    <a href="art.html">art</a>
+  </nav>
+</header>
+
+<main>
+  <p class="page-title">projects</p>
+
+  <div class="prose">
+    <p>
+      Things I've built. Source code linked where available.
+    </p>
+  </div>
+
+  <p class="section-label" style="margin-top:2rem;">software</p>
+
+  <ul class="entry-list">
+
+    <li class="entry">
+      <div class="entry-meta">2026 · c++ · data structures</div>
+      <div class="entry-title">
+      
+        <a href="https://github.com/krishrbhattarai/hashcatch">HashCatch, a Document Similarity Engine</a>
+      </div>
+      <p class="entry-desc">
+        Plagiarism detection built entirely from scratch in C++, without STL.
+        Implements a polynomial rolling hash and a custom open-addressing hash
+        table with linear probing for O(1) word lookup. Applies Jaccard
+        similarity across two hash tables to produce a document similarity
+        percentage. CLI tool accepting any two text files.
+      </p>
+      <div class="entry-tags">
+        <span class="tag">c++</span>
+        <span class="tag">hash tables</span>
+        <span class="tag">algorithms</span>
+        <span class="tag">cli</span>
+      </div>
+    </li>
+
+    <li class="entry">
+      <div class="entry-meta">2025 · python · genai</div>
+      <div class="entry-title">
+        <a href="https://github.com/krishrbhattarai/ragnalog">Logged Retrieval-Augmented Generation System</a>
+      </div>
+      <p class="entry-desc">
+        Production-style RAG pipeline combining ChromaDB vector storage with
+        Gemini embeddings for semantic search over large document corpora.
+        Hybrid retrieval blends semantic similarity with keyword matching.
+        Confidence scoring and structured logging make retrieval decisions
+        auditable.
+      </p>
+      <div class="entry-tags">
+        <span class="tag">python</span>
+        <span class="tag">chromadb</span>
+        <span class="tag">gemini</span>
+        <span class="tag">rag</span>
+        <span class="tag">vector search</span>
+      </div>
+    </li>
+
+    <li class="entry">
+      <div class="entry-meta">2025 · python · ml · hackathon</div>
+      <div class="entry-title">
+        <a href="https://github.com/kavyapokharel/NephroCare">NephroCare, a Predictive Healthcare Support System</a>
+      </div>
+      <p class="entry-desc">
+        Machine learning system for early detection and monitoring of chronic
+        kidney disease, addressing a condition affecting 1 in 7 Americans.
+        Feature engineering pipeline for clinical biomarkers using Pandas and
+        NumPy; supervised learning models evaluated with k-fold cross-validation.
+        Modular analytics components targeting a 15–30% reduction in missed
+        appointments.
+      </p>
+      <div class="entry-tags">
+        <span class="tag">python</span>
+        <span class="tag">scikit-learn</span>
+        <span class="tag">pandas</span>
+        <span class="tag">numpy</span>
+        <span class="tag">healthcare</span>
+      </div>
+    </li>
+
+
+  </ul>
+
+  <p class="section-label">research</p>
+
+  <ul class="entry-list">
+    <li class="entry">
+      <div class="entry-meta">2025–present · signal processing · python</div>
+      <div class="entry-title">
+        <a href="#">ABR Signal Processing for Infant Hearing-Loss Detection</a>
+      </div>
+      <p class="entry-desc">
+        Undergraduate research at the University of Southern Mississippi.
+        Building FFT-based signal processing algorithms: frequency filtering,
+        peak detection, and feature extraction from noisy biomedical
+        time-series data. Developing reusable extraction pipeline components
+        for systematic comparison of feature sets across patient data.
+      </p>
+      <div class="entry-tags">
+        <span class="tag">python</span>
+        <span class="tag">numpy</span>
+        <span class="tag">pandas</span>
+        <span class="tag">dsp</span>
+        <span class="tag">biomedical</span>
+      </div>
+    </li>
+  </ul>
+
+</main>
+
+<footer>
+  <p>
+    <a href="mailto:krishr.bhattarai@gmail.com">krishr.bhattarai@gmail.com</a>
+  </p>
+</footer>
+
+</body>
+</html>
