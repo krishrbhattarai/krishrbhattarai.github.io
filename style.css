@@ -345,8 +345,8 @@ main {
 
 .art-img {
   width: 100%;
-  aspect-ratio: 4/3;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
   background: #ddd8ce;
   border: 1px solid var(--rule);
