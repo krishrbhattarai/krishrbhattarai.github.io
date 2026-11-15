@@ -1,0 +1,14 @@
+{
+  "name": "Krish Raj Bhattarai",
+  "tagline": "researcher, builder.",
+  "bio": "I work with ML tools to automate business operations, building systems at the intersection of machine learning and information systems.",
+  "education": {
+    "degree": "B.S. Computer Science",
+    "university": "University of Southern Mississippi",
+    "minor": "Economic Data Analysis"
+  },
+  "links": {
+    "github": "https://github.com/krishrbhattarai",
+    "linkedin": "https://www.linkedin.com/in/krish-raj-bhattarai-a943213b1/"
+  }
+}
